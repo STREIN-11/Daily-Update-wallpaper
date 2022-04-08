@@ -8,7 +8,7 @@ import os
 import time
 def l():
     try:
-        storage_directory = "D:\FUN ZONE\IMAGES\WallPaperr"
+        storage_directory = " "
         os.chdir(storage_directory)  # change to your blank directory
         print("Navigated to directory...")
         # clear directory each day to prevent duplicates
@@ -16,8 +16,8 @@ def l():
         for f in filelist:
             os.remove(f)
         print("Removed previous files...\n")
-        SCRIPT = "p1CoZQuBy9eP4e8YH0dM5Q"  # check README
-        SECRET = "6YHiBWbUWEIJMvYt91vuDjOOsCOUOA"  # check README
+        SCRIPT = "p1CoZQuBy9eP4e8YH0dM5Q" 
+        SECRET = "6YHiBWbUWEIJMvYt91vuDjOOsCOUOA" 
         NUM_IMAGES = 100
         reddit = praw.Reddit(
             client_id=SCRIPT,
