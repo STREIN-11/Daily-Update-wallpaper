@@ -23,8 +23,8 @@ def l():
             client_id=SCRIPT,
             client_secret=SECRET,
             user_agent="Image_Py",
-            username="STREIN__011",  # your username
-            password="53475367G",  # your password
+            username=" ",  # your username
+            password=" ",  # your password
         )
         subreddit = reddit.subreddit("wallpaper")
         images = []
