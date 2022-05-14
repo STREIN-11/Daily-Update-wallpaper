@@ -8,8 +8,9 @@ import os
 import time
 def l():
     try:
-        storage_directory = " "
-        os.chdir(storage_directory)  # change to your blank directory
+       
+        storage_directory = " " # change to your blank directory
+        os.chdir(storage_directory)  
         print("Navigated to directory...")
         # clear directory each day to prevent duplicates
         filelist = [f for f in os.listdir(storage_directory)]
