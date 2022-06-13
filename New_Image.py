@@ -8,7 +8,6 @@ import os
 import time
 def l():
     try:
-       
         storage_directory = " " # change to your blank directory
         os.chdir(storage_directory)  
         print("Navigated to directory...")
