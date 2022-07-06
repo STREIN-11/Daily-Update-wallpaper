@@ -6,7 +6,7 @@ from urllib.parse import quote
 import sys
 import os
 import time
-def l():
+def main():
     try:
         storage_directory = " " # change to your blank directory
         os.chdir(storage_directory)  
@@ -54,4 +54,4 @@ def l():
         exit()
 
 if __name__ == '__main__':
-    l()
+    main()
